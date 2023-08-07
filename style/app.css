@@ -19,3 +19,6 @@ h2 {
 .bg-body-tertiary {
   background-color: var(--main-background) !important;
 }
+.nav-link {
+  color: var(--primary-color);
+}
