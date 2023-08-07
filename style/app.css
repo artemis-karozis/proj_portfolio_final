@@ -16,3 +16,6 @@ h1 {
 h2 {
   color: var(--secondary-color);
 }
+.bg-body-tertiary {
+  background-color: var(--main-background) !important;
+}
