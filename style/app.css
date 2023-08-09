@@ -46,3 +46,15 @@ h2 {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: white;
+  }
+  .nav-link {
+    color: rgb(51, 50, 50);
+  }
+  .nav-link.active {
+    --bs-navbar-active-color: rgb(51, 50, 50);
+    text-decoration: underline;
+  }
+}
