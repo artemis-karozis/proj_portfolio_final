@@ -67,3 +67,6 @@ h2 {
   color: var(--primary-color);
   margin: 50px;
 }
+.hero-module-about-me {
+  padding-top: 100px;
+}
