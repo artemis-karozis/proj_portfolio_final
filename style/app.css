@@ -57,4 +57,8 @@ h2 {
     --bs-navbar-active-color: rgb(51, 50, 50);
     text-decoration: underline;
   }
+  .hero-module {
+    justify-content: center;
+    margin: 60px 0 0 15px;
+  }
 }
