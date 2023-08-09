@@ -19,6 +19,9 @@ h2 {
 .bg-body-tertiary {
   background-color: var(--main-background) !important;
 }
-.nav-link {
-  color: var(--primary-color);
+
+.card {
+  --bs-card-border-color: var(--primary-color);
+  --bs-border-width: 3px;
+  --bs-border-style: solid;
 }
