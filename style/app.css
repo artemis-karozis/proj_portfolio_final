@@ -34,7 +34,7 @@ h2 {
   font-size: 20px;
 }
 .hero-module {
-  margin: 100px 0 0 300px;
+  margin: 100px 50px 50px 100px;
 }
 
 .navbar .navbar-toggler-icon {
@@ -66,7 +66,4 @@ h2 {
 .content-section-divider {
   color: var(--primary-color);
   margin: 50px;
-}
-.hero-module {
-  padding-top: 100px;
 }
