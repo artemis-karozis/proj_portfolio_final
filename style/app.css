@@ -11,11 +11,14 @@ body {
 }
 h1 {
   color: var(--primary-color);
-  font-size: 48px;
+  font-size: clamp(40px, 8vw, 80px);
   font-weight: 700;
 }
 h2 {
   color: var(--secondary-color);
+}
+p {
+  font-size: 20px;
 }
 .bg-body-tertiary {
   background-color: var(--main-background) !important;
