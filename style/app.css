@@ -50,8 +50,7 @@ p {
 }
 .navbar-toggler {
   --bs-navbar-toggler-border-color: none;
-  margin: 0;
-  padding: 0;
+  margin-left: 12px;
 }
 @media (max-width: 991px) {
   .navbar-collapse {
