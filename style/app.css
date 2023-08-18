@@ -2,6 +2,7 @@
   --main-background: #0a192f;
   --primary-color: #ccd6f6;
   --secondary-color: #8892b0;
+  --tertiary-colour: aqua;
 }
 body {
   background-color: var(--main-background);
@@ -48,7 +49,8 @@ h2 {
 }
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: rgba(190, 251, 255, 0.931);
+    background: aqua;
+    border-radius: 2px;
   }
   .nav-link {
     color: rgb(51, 50, 50);
@@ -82,6 +84,11 @@ li.contact {
   padding: 0 25px 0 0;
 }
 a {
-  color: aqua;
+  color: var(--tertiary-colour);
   text-decoration: none;
+}
+
+.headshot:hover {
+  transform: translate(10px, 5px);
+  transition: ease-out 0.2s;
 }
