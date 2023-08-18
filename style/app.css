@@ -94,10 +94,13 @@ a {
   color: var(--tertiary-colour);
   text-decoration: none;
 }
+.headshot-wrapper {
+  background-color: aqua;
+}
 
-.headshot:hover {
-  transform: translate(10px, 5px);
-  transition: ease-out 0.2s;
+.headshot {
+  transform: translate(10px, 10px);
+  transition: ease-out 0.5s;
 }
 .navbar-dark {
   --bs-navbar-active-color: var(--tertiary-colour);
