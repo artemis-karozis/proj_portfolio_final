@@ -61,9 +61,12 @@ p {
   .nav-link {
     color: rgb(51, 50, 50);
   }
+  .nav-link:hover {
+    color: var(--secondary-color);
+  }
   .nav-link.active {
     --bs-navbar-active-color: rgb(51, 50, 50);
-    text-decoration: underline;
+    font-weight: bolder;
   }
   .content-container {
     justify-content: center;
