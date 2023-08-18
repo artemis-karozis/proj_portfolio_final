@@ -68,8 +68,11 @@ p {
     font-weight: bolder;
   }
   .content-container {
-    justify-content: center;
+    justify-content: left;
     margin: 60px 20px 0 20px;
+  }
+  .intro-subtext {
+    max-width: 100%;
   }
 }
 
@@ -123,4 +126,7 @@ footer {
   max-width: 100%;
   border-bottom: 2px solid var(--tertiary-colour);
   margin: 0.5em auto 0;
+}
+.intro-subtext {
+  max-width: 35%;
 }
