@@ -102,3 +102,13 @@ a {
 .navbar-dark {
   --bs-navbar-active-color: var(--tertiary-colour);
 }
+.icons-footer {
+  color: aqua;
+  font-size: 30px;
+  padding-right: 20px;
+}
+footer {
+  margin-top: 40px;
+  color: var(--primary-color);
+  line-height: 75px;
+}
