@@ -115,3 +115,10 @@ footer {
   color: var(--primary-color);
   line-height: 75px;
 }
+.intro-subtext:after {
+  content: "";
+  display: block;
+  max-width: 100%;
+  border-bottom: 2px solid var(--tertiary-colour);
+  margin: 0.5em auto 0;
+}
