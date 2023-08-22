@@ -125,7 +125,7 @@ footer {
   }
   .content-container {
     justify-content: left;
-    margin: 60px 20px 0 20px;
+    /* margin: 60px 20px 0 20px; */
   }
   .intro-subtext {
     max-width: 90%;
